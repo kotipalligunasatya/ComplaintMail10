@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color:rgb(120, 220, 190);
+        }
+        .heading{
+            color: rgb(52, 52, 142);
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 2rem;
+            margin-left:30%;
+            margin-right: 30%;
+        }
+        a{
+            text-decoration: none;
+        }
+        .forms{
+            font-family: 'Ubuntu', sans-serif;
+            width:45%;
+            border: 2px solid black;
+            margin: auto;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left:20px;
+            border-radius: 20px;
+            background-color: rgb(30, 109, 109);
+        }
+        .form1{
+            background-color: rgb(218, 240, 242);
+            border-radius:8px ;
+            width:55%;
+            height: 25px;
+        }
+        .textarea{
+            border-radius: 10px;
+            width: 80%;
+            background-color: rgb(218, 240, 242);
+        }
+        .btn{
+            color: black;
+            background-color: rgb(219, 235, 73);
+            width: 100px;
+            height: 30px;
+            border-radius: 20px;
+        }
+        .btn:hover{
+            background-color:orange;
+            color: white;
+            transform: scale(120%);
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        h3{
+            text-align: center;
+        }
+        .desc{
+            font-family: 'Ubuntu', sans-serif;
+        }
+        img{
+            width:100px;
+        }
+        @media (min-width:720) {
+            .textarea{
+                width: 260px;
+            }
+        }
+        @media (max-width:860) {
+            .textarea{
+                width: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="logo.png" alt="" srcset="">
+    <h2><a href="ex.html" class="heading">Water department</a></h2>
+    <div class="forms">
+    <form action="mailto:water@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input class="form1" type="text" id="name" name="Name" required placeholder="Enter your name">
+        <br><br>
+        <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input class="form1" id="email" type="email" name="Email" required placeholder="Enter your Email">
+        <br><br>
+        <label for="address">Address:&nbsp;&nbsp;</label>
+        <input class="form1" id="address" type="text" name="Address" required placeholder="Enter your Address">
+        <br><br>
+        <label for="phone">Phone no:</label>
+        <input class="form1" id="phone" type="number" name="Phone number" required placeholder="Enter your phone number">
+        <br><br>
+        <label>Complaint:</label>
+        <br>
+        <textarea rows="15" cols="32" name="Complaint" required placeholder="Write your complaint" class="textarea"></textarea>
+        <br><br>
+        <input type="submit" name="" id="" class="btn">
+        <input type="reset" class="btn">
+    </form>
+    </div>
+    <div class="desc">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, autem amet. Vitae voluptas, quia temporibus sunt non exercitationem, modi excepturi at sapiente saepe atque blanditiis, totam perspiciatis rerum cum quasi consequuntur ea. Esse aperiam quia deleniti voluptate. Atque quos praesentium quod fuga, officiis quis saepe laboriosam, sequi repellat recusandae molestias?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, pariatur dolore ad ab repellendus, suscipit iure iste dolores laborum voluptatibus numquam labore saepe impedit ut perspiciatis commodi enim eos sapiente animi cumque deleniti iusto omnis. Temporibus et debitis quis cumque exercitationem, iure architecto! Quia id deserunt incidunt perferendis atque voluptatem.
+        </p>
+    </div>
+</body>
+</html>
